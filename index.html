@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Connect Four(smart defense)</title>
+    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container-fluid row">
+  <div class="col-md-10 col-xs-12">
+    <div id="board" class="row">
+      <div id="row-one" class="across  col-xs-1 col-md-1">
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+      </div>
+      <div id="row-two" class="across col-xs-1 col-md-1">
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+      </div>
+      <div id="row-three" class="across col-xs-1 col-md-1">
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+      </div>
+      <div id="row-four" class="across col-xs-1 col-md-1">
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+      </div>
+      <div id="row-five" class="across col-xs-1 col-md-1">
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+      </div>
+      <div id="row-six" class="across col-xs-1 col-md-1">
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+      </div>
+      <div id="row-seven" class="across col-xs-1 col-md-1">
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2 col-xs-12">
+    <div id="scoreboard" class="row text-center">
+      <div class="col-md-12 col-xs-4">
+        <div class="display">
+          <h2>Player Wins: <span class="player"></span></h2>
+        </div>
+      </div>
+      <div class="col-md-12 col-xs-4">
+        <div class="display">
+          <h2>Tied: <span class="ties"></span></h2>
+        </div>
+      </div>
+      <div class="col-md-12 col-xs-4">
+        <div class="display">
+          <h2>Computer Wins: <span class="computer"></span></h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
